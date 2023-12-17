@@ -1,0 +1,19 @@
+.quick-replies-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.quick-reply-button {
+  background-color: #007bff; /* 기본 버튼 색상 */
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* 마우스 오버 효과를 위한 전환 */
+}
+
+.quick-reply-button:hover {
+  background-color: #0056b3; /* 마우스 오버 시 버튼 색상 변경 */
+}
